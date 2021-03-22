@@ -1,0 +1,80 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    --azul-claro: rgb(40, 118, 207);
+    --azul-escuro: rgb(0, 62, 129);
+}
+
+html {
+    background: linear-gradient(120deg, black 50%, var(--azul-escuro) 50%);
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 0;
+}
+
+main {
+    color: #FFF;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+.avatar {
+    border: 2px solid var(--azul-escuro);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 9px 2px 45px black
+}
+
+.info {
+    text-align: center;
+    width: 20%;
+    max-width: 250px;
+    background: linear-gradient(120deg, black 50%, var(--azul-escuro) 50%) repeat center center;
+    box-shadow: 13px 2px 65px var(--azul-escuro);
+    border: 2px solid var(--azul-escuro);
+    border-radius: 10%;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    padding: 2rem;
+}
+
+.curriculo {
+    width: 70%;
+    padding: 2rem;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #FFF;
+    background: var(--azul-escuro);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: black;
+    transition: 0.3s;
+    font-size: 130%;
+}
