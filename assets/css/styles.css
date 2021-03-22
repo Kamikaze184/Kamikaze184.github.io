@@ -5,7 +5,7 @@
 }
 
 html {
-    background: linear-gradient(120deg, black 50%, var(--azul-escuro) 50%);
+    background: linear-gradient(120deg, black 50%, var(--azul-escuro) 50%) no-repeat center center fixed;
     background-repeat: repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -33,21 +33,60 @@ img {
 
 .info {
     text-align: center;
-    width: 20%;
+    width: fit-content;
     max-width: 250px;
     background: linear-gradient(120deg, black 50%, var(--azul-escuro) 50%) repeat center center;
     box-shadow: 13px 2px 65px var(--azul-escuro);
     border: 2px solid var(--azul-escuro);
     border-radius: 10%;
     position: relative;
-    top: 10px;
+    top: 80px;
     margin-left: 10px;
     padding: 2rem;
+    height: fit-content;
 }
 
 .curriculo {
+    position: relative;
+    top: 31px;
     width: 70%;
     padding: 2rem;
+}
+
+header {
+    color: #FFF;
+    text-decoration: none;
+    background: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--azul-escuro);
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    margin: 35px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: var(--azul-escuro);
+    transition: 0.3s;
+    font-size: 150%;
+}
+
+.navbar .active {
+    font-size: 150%;
+    color: var(--azul-escuro);
 }
 
 footer {
@@ -68,7 +107,6 @@ footer {
 }
 
 a {
-    text-decoration: none;
     color: white;
     transition: 0.3s;
 }
@@ -76,5 +114,11 @@ a {
 a:hover {
     color: black;
     transition: 0.3s;
-    font-size: 130%;
+    font-size: 120%;
+}
+
+.proj a:hover {
+    color: var(--azul-escuro);
+    transition: 0.3s;
+    font-size: 150%;
 }
