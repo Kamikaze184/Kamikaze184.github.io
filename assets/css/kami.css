@@ -1,0 +1,22 @@
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-text {
+    margin-left: 10px;
+}
+
+.kami-info {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    padding: 2rem;
+    height: fit-content;
+}
+
+.texto {
+    width: 45%;
+    text-align: justify;
+}
