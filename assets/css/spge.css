@@ -1,0 +1,54 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    --azul-claro: rgb(40, 118, 207);
+    --azul-escuro: rgb(0, 62, 129);
+}
+
+.spge-info {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    padding: 2rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.logo-text {
+    text-align: left;
+}
+
+.texto {
+    width: 45%;
+    text-align: justify;
+}
+
+.imagens {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 800px;
+    max-width: fit-content;
+    right: 20px;
+    top: 80px;
+    padding-bottom: 120px;
+    transition: 0.3s;
+}
+
+.spgeS:hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.spgeE:hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.spgeR:hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
